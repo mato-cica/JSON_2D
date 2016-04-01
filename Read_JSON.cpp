@@ -9,7 +9,7 @@ using namespace std;
 Read_JSON::Read_JSON()
 : m_str_JSON_2D {""}
 {
-    cout << "Enter the path to the JSON file relative to folder which this program is in." << endl << "If the JSON file is in the same folder as program just enter the name of the" << endl << "file (JSON_2D.txt)" << endl;
+    cout << "********** JSON_2D Version 1.0.0 ************" << endl << "Enter the path to the JSON file relative to folder which this program is in." << endl << "If the JSON file is in the same folder as program just enter the name of the" << endl << "file (JSON_2D.txt)" << endl;
     string JSON_file;
     cin >> JSON_file;
     //ifstream inf("JSON_2D.txt");
